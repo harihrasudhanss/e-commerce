@@ -1,0 +1,191 @@
+body
+{
+    background-color: black;
+    margin: 0;
+}
+.addform
+{
+    margin-top: 50px;
+    margin-left: 25vw;
+    border: 2px solid #c69320;
+    text-align: center;
+    width:500px;
+}
+.addform input
+{
+    margin-top: 20px;
+   
+}
+.dashboard 
+{
+    margin-left: 30px;
+    width:800px;
+    float: left;
+  
+
+    /* border:2px solid black; */
+}
+.dashboard th,td
+{
+    width:166px;
+    text-align: center;
+    color:#c69320;
+}
+.dashboard  tr th,td
+{
+    border: 2px solid #c69320;
+}
+.dashboard th
+{
+    text-transform: capitalize;
+}
+input
+{
+    background: transparent;
+    border:2px solid #c69320;
+    color:#c69320;
+}
+.navbar {
+    overflow :hidden;
+    background-color: #333;
+    opacity:0.5;    
+    margin: 0;
+   
+}
+
+
+
+.navbar a {
+    width:80px;
+    float:left;
+    font-size:16px;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    /* position: sticky; */
+    top:0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    opacity:1;
+    margin-top: 0;
+    
+}
+.dropdown{
+    width:150px;
+    float:left;
+    overflow:hidden;
+
+    
+    
+    
+}
+.dropdown .dropbtn{
+    font-size: 16px;
+    border:none;
+    outline:none;
+    color:white;
+    padding:14px 16px;
+    background-color: inherit;
+    font-family:inherit;
+    margin: 0;
+    width:150px;
+    z-index: 5;
+}
+.navbar a:hover,.dropdown:hover .dropbtn{
+    background-color:red;
+}
+.dropdown-content{
+    display:none;
+    position: relative;
+    background-color:#f9f9f9;
+    min-width:160px;
+    box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index:5;
+    /* position: sticky; */
+    /* top:0; */
+
+    
+}
+.dropdown-content a{
+    float:none;
+    color:black;
+    padding:12px 16px;
+    text-decoration:none;
+    display:block;
+    text-align:left;
+    
+
+}
+.dropdown-content a:hover{
+    background-color:#ddd;
+}
+.dropdown:hover .dropdown-content{
+    display:block;
+}
+.alogin
+{
+    margin:0;
+    padding:0;
+    background-color: black;
+}
+.alogin form
+{
+    position: absolute;
+    left: 35vw;
+    top:45vh;
+}
+.alogin .apass
+{
+    width:300px;
+    text-align: center;
+    height:40px;
+}
+.alogin  .adminsubmit
+{
+    position:absolute;
+    left:125px
+}
+.deletebtn
+{
+    position: absolute;
+    top:10px;
+    right:30px;
+    background-color: blue;
+    border:none;
+    height:20px;
+    width:100px;
+    color:white;
+}
+.deletebtn:hover
+{
+    /* font-size: large; */
+    font-weight: bold;
+    background-color: red;
+}
+.navbar:hover
+{
+    opacity:1;
+}
+.submit:hover
+{
+    background-color: #c69320;
+    color:white;
+    font-weight:bold;
+}
+legend
+{
+    color:#c69320;
+    font-weight:bold;
+    text-transform:uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing:5px;
+}
+.delete-form
+{
+    border:2px solid #c69320;
+    width:300px;
+    text-align:center;
+    margin-top:50px;
+    margin-left:1000px;
+    z-index:2;
+}
